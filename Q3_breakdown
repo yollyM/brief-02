@@ -1,0 +1,16 @@
+Question 3
+
+
+Prompt user to enter a key to start (Y/N)
+Prompt a message to notify user of program running.
+Prompt a message to user  if they would  like to enter details.
+If user answer is  yes:
+prompt user to enter client’s name, contact number, address and total number of dependants.
+Calculate the amount to receive.
+
+If user answer is no, cancel prompt.
+
+Display all entered clients, their details and the cash received.
+Prompt the user if they would like to quit.
+If they say yes: close the program
+If they say no: go back to step 3

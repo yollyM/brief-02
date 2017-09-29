@@ -1,0 +1,18 @@
+var x= myFunction (4,3);
+function myFunction(a,b) {
+return a*b;
+}
+\* output is 12 *\
+
+var a=[0,'b','c']
+console.log(type of a);
+\*output*\
+
+var recruit={
+name:'Vuyo',
+age:22,
+getName:function(){return this.name+''+this.age;}
+console.log(recruit.getName());
+
+}
+\* output *\

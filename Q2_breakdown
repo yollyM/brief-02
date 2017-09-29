@@ -1,0 +1,10 @@
+Question two
+
+Generate a random number from 1-6
+Prompt  the user to enter a number between 1-6
+Once the number entered by the user, compare the number entered in point A. to B.
+If the numbers don't match ,1. Inform they have failed 2. ask the if they wish to exit or try again .
+If the users agrees to try again , go back to point B
+If the user does not wish to try again, send a thank you message.
+If the number entered in point B by the user matched with number in point A,
+            1 congratulate the user 2. ask the if they wish to exit or try again .

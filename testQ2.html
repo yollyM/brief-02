@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <script>
+  //generate random number
+  function randomRange(myMin, myMax) {
+
+  return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin;
+};
+// Change these values to test your function
+var myRandom = randomRange(1, 6);
+
+
+
+var userAns= confirm('would you like to play');
+//process to run again
+while(userAns){
+  //prompt user to enter number
+var userNumber = parseInt(prompt("Please enter a number from 1-6:"));
+
+console.log(typeof(number));
+//compare number and the userNumber
+if(myRandom != userNumber){
+userAns= confirm("oops! correct number is"  +  myRandom, "would you like to try again?");
+} else{
+  userAns= confirm("Yay, great job, would you like to try again?");
+}
+myRandom = randomRange(1, 6);
+}
+
+
+
+
+
+
+  </script>
+</body>
+</html>
